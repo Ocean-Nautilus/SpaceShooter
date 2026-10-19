@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd7342675250b7b439106b2bc1a23783, type: 3}
+  m_Name: L0_0
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceShooter.EnemyData
+  title: "\u0420\u0430\u0437\u0432\u0435\u0434\u0447\u0438\u043A"
+  motion: 0
+  health: 2
+  speed: 0.7
+  fireInterval: 2.7
+  damage: 8
+  score: 100
+  pellets: 1
+  spread: 18
+  color: {r: 1, g: 1, b: 1, a: 1}
+  sprite: {fileID: 21300000, guid: 90db1bd17137c4b4d948725e9dae6254, type: 3}

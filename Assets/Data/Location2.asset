@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9873234ee6199749aa7762571159503, type: 3}
+  m_Name: Location2
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceShooter.LocationData
+  title: "\u0421\u0442\u0440\u0435\u043B\u0435\u0446 A"
+  waves: 10
+  strength: 2.3
+  background: {r: 0.06, g: 0.005, b: 0.025, a: 1}
+  accent: {r: 1, g: 0.5, b: 0.2, a: 1}
+  enemies:
+  - {fileID: 11400000, guid: a3ffefa62867b4c4a8e0d48f6ab248c1, type: 2}
+  - {fileID: 11400000, guid: 634aed695ee4b9e4c80852ddb63e59b8, type: 2}
+  - {fileID: 11400000, guid: 8291a7bf9fb532b44834bf3ff9266e72, type: 2}
+  miniBoss: {fileID: 11400000, guid: ddbfeeb1949e6b743817d07caa46300f, type: 2}
+  boss: {fileID: 11400000, guid: da2d7e8a7b488f94fb9327aa6ef5a55a, type: 2}
+  backgroundSprite: {fileID: 0}
+  music: {fileID: 0}
+  bossPattern: 2

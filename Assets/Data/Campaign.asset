@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0371852733940cc4d91f4669bb836847, type: 3}
+  m_Name: Campaign
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceShooter.CampaignData
+  locations:
+  - {fileID: 11400000, guid: 88e1a7d31c76a184ab6fa66887eb24b6, type: 2}
+  - {fileID: 11400000, guid: fa41db7099732314d9de0ad4e78dd594, type: 2}
+  - {fileID: 11400000, guid: c4c11f86620c15c4d838f175c2d5edcc, type: 2}
+  playerSprite: {fileID: 21300000, guid: bf8ddafe189b90247b484ca8b8e3ceca, type: 3}
+  bulletSprite: {fileID: 820357171280843453, guid: 56b5b236a7eb7614c91ad2d4029f23f8, type: 3}
+  menuMusic: {fileID: 0}
+  shot: {fileID: 0}
+  explosion: {fileID: 0}
+  engine: {fileID: 0}
+  click: {fileID: 0}
+  victory: {fileID: 0}
+  defeat: {fileID: 0}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9873234ee6199749aa7762571159503, type: 3}
+  m_Name: Location1
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceShooter.LocationData
+  title: "\u041C\u043B\u0435\u0447\u043D\u044B\u0439 \u043F\u0443\u0442\u044C"
+  waves: 7
+  strength: 1.65
+  background: {r: 0.05, g: 0.015, b: 0.1, a: 1}
+  accent: {r: 0.7, g: 0.4, b: 1, a: 1}
+  enemies:
+  - {fileID: 11400000, guid: 30436df13b4013e47a625932cea10770, type: 2}
+  - {fileID: 11400000, guid: 3d09fa824bad1b740818ca8549d1a563, type: 2}
+  - {fileID: 11400000, guid: 748ee1c4dcd4ec14e8b0ab368c527225, type: 2}
+  miniBoss: {fileID: 11400000, guid: 8b53fe7d85c044345b2a73d4a29162db, type: 2}
+  boss: {fileID: 11400000, guid: f6f8482f56724cc4ca491e8ca443046b, type: 2}
+  backgroundSprite: {fileID: 0}
+  music: {fileID: 0}
+  bossPattern: 1
